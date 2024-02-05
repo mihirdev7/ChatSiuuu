@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "612821295818",
+    "project_id": "chatsiuu-b72fc",
+    "storage_bucket": "chatsiuu-b72fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612821295818:android:b365ceb9aea6a8ff8f0a33",
+        "android_client_info": {
+          "package_name": "com.example.chatsiuu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAckPdceg9n5OGqfnhNeYVcurBwfyONlJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

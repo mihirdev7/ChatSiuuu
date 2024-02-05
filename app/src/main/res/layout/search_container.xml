@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+
+        android:id="@+id/searchImageID"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edittext_rounded_corner"
+        android:src="@drawable/baseline_otp_notify"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/searchNameID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="mihir devda123"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/searchImageID"
+        app:layout_constraintStart_toEndOf="@+id/searchImageID"
+        app:layout_constraintTop_toTopOf="@+id/searchImageID"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/searchNumberID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:elevation="4dp"
+        android:text="91999999999"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="@+id/searchNameID"
+        app:layout_constraintTop_toBottomOf="@+id/searchNameID" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
