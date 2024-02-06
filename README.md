@@ -5,7 +5,7 @@ A simple chat application with phone number authentication using Firebase. The a
 ## Features
 
 - **Phone Number Authentication:**
--  Users can sign in with their phone numbers using Firebase Authentication.
+  - Users can sign in with their phone numbers using Firebase Authentication.
 
 - **Chat Activity:**
   - Search functionality to find other users.
